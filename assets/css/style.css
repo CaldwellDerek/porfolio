@@ -1,8 +1,27 @@
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html {
+    font-size: 16px;
+}
+
+header {
+    background-color: pink;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p {
+    padding: 20px;
+    font-size: 3rem;
+}
+
+header ul {
+    margin-right: 20px;
+}
+
+header li {
+    display: inline;
+    padding: 10px;
+    font-size: 1.25rem;
 }
