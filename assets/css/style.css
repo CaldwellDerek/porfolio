@@ -46,8 +46,9 @@ header li {
 }
 
 .content-piece {
-    background-color: bisque;
-    height: 20rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 15rem;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -58,15 +59,13 @@ header li {
     height: 100%;
     text-align: right;
     display: flex;
-    align-items: flex-start;
     justify-content: flex-end;
     width: 45rem;
-    background-color: aquamarine;
 }
 
 .section-title h3 {
     font-size: 3rem;
-    margin-right: 0.5rem;
+    padding-right: 1.25rem;
 }
 
 .section-content {
@@ -75,9 +74,8 @@ header li {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding: 1.25rem;
+    padding-left: 1.25rem;
     width: 100%;
-    background-color: blanchedalmond;
 }
 
 .section-content li {
@@ -92,10 +90,53 @@ header li {
     margin: 0 auto .625rem;
 }
 
-.secondary-work {
-    height: 15rem;
-    width: 48%;
-    margin: 0 auto;
+.primary-work-overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    transition: opacity 0.3s ease-in-out;
+    bottom: 484px;
+    position: relative;
+}
+
+.primary-work-overlay-tag {
+    position: relative;
+    background-color: black;
+    width: 10rem;
+    height: 5rem;
+    bottom: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-work-overlay-tag h4,
+.secondary-work-overlay-tag h4 {
+    font-size: 1.2rem;
+}
+
+.primary-work-overlay-tag p,
+.secondary-work-overlay-tag p {
+    font-size: 0.9rem;
+} 
+
+.primary-work-overlay-tag h4,
+.primary-work-overlay-tag p,
+.secondary-work-overlay-tag h4,
+.secondary-work-overlay-tag p {
+    color: white;
+}
+
+.primary-work img,
+.secondary-work img {
+    height: 100%;
+    width: 100%;
+}
+
+.primary-work-overlay:hover,
+.secondary-work-overlay:hover {
+    opacity: 0;
 }
 
 .primary-work,
@@ -103,11 +144,43 @@ header li {
     border: .3125rem solid black;
 }
 
+.secondary-work {
+    height: 15rem;
+    width: 48%;
+    margin: 0 auto;
+}
+
+.secondary-work-overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    transition: opacity 0.3s ease-in-out;
+    position: relative;
+    bottom: 244px;
+}
+
+.secondary-work-overlay-tag {
+    position: relative;
+    background-color: black;
+    width: 10rem;
+    height: 5rem;
+    bottom: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 #work {
-    height: 80rem;
+    height: 50rem;
+}
+
+#contact {
+    height: 10rem;
 }
 
 #contact-list {
     display: flex;
     justify-content: space-around;
+    padding-top: 2rem;
 }
