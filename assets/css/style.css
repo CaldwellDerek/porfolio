@@ -36,3 +36,13 @@ header li {
     top: 18rem;
     right: 4rem;
 }
+
+.primary-work {
+    height: 28rem;
+    width: 60rem;
+}
+
+.secondary-work {
+    height: 14rem;
+    width: 29.9rem;
+}
