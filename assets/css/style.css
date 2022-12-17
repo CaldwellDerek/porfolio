@@ -37,12 +37,51 @@ header li {
     right: 4rem;
 }
 
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.content-piece {
+    background-color: bisque;
+    height: 20rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-title {
+    border-right: .3125rem solid black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45rem;
+    background-color: aquamarine;
+}
+
+.section-title h3 {
+    padding: 1.25rem;
+}
+
+.section-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.25rem;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
 .primary-work {
-    height: 28rem;
-    width: 60rem;
+    height: 2rem;
+    width: 2rem;
 }
 
 .secondary-work {
-    height: 14rem;
-    width: 29.9rem;
+    height: 2rem;
+    width: 2rem;
 }
