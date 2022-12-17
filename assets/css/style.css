@@ -50,25 +50,29 @@ header li {
     height: 20rem;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .section-title {
     border-right: .3125rem solid black;
     height: 100%;
+    text-align: right;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-end;
     width: 45rem;
     background-color: aquamarine;
 }
 
 .section-title h3 {
-    padding: 1.25rem;
+    font-size: 3rem;
+    margin-right: 0.5rem;
 }
 
 .section-content {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     padding: 1.25rem;
@@ -76,12 +80,34 @@ header li {
     background-color: blanchedalmond;
 }
 
+.section-content li {
+    display: inline;
+    padding: 1.875rem;
+    font-size: 1.5rem;
+}
+
 .primary-work {
-    height: 2rem;
-    width: 2rem;
+    height: 30rem;
+    width: 99%;
+    margin: 0 auto .625rem;
 }
 
 .secondary-work {
-    height: 2rem;
-    width: 2rem;
+    height: 15rem;
+    width: 48%;
+    margin: 0 auto;
+}
+
+.primary-work,
+.secondary-work {
+    border: .3125rem solid black;
+}
+
+#work {
+    height: 80rem;
+}
+
+#contact-list {
+    display: flex;
+    justify-content: space-around;
 }
