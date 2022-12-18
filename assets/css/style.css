@@ -128,7 +128,7 @@ header li {
 
 .primary-work {
     height: 30rem;
-    width: 99%;
+    width: 100%;
     margin: .625rem 0rem;
 }
 
@@ -241,12 +241,14 @@ header li {
     color: #1B57B3;
 }
 
-@media screen and (max-width: 1100px) {
-/* 
-    #section-content {
-        min-width: 25rem;
-        flex-direction: column;
-    } */
+@media screen and (max-width: 69.6875rem) {
+
+    .primary-work {
+        min-width: 100%;
+    }
+    .secondary-work {
+        min-width: 100%;
+    }
 
     #contact-list {
         justify-content: flex-start;
@@ -257,16 +259,83 @@ header li {
     #contact-list li {
         display: block;
     }
-}
 
-@media screen and (max-width: 962px){
     header {
-        background-color: green;
+        height: 12.5rem;
+        display: block;
+        text-align: center;
+        position: static;
+        min-width: 31.25rem;
     }
-}
+    
+    header a{
+        border-bottom: 0rem;
+    }
+    
+    header p {
+        padding: 0rem 0rem 1rem;
+        font-size: 3rem;
+        width: 100%;
+    }
+    
+    header li {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
 
-@media screen and (max-width: 724px) {
-    header {
-        background-color: red;
+    .hero {
+        margin-top: 0rem;
+        min-width: 31.25rem;
+    }
+    
+    .hero p {
+        position: absolute;
+        font-size: 3rem;
+        right: 4rem;
+        top: 19rem;
+        color: #FFF;
+        z-index: 1;
+        min-width: 31.25em;
+    }
+
+    .content {
+        display: block;
+        min-width: 31.25rem;
+    }
+    
+    .content-piece {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section-title {
+        height: 100%;
+        width: 20rem;
+        border-bottom: 0.25rem solid #0F3266;
+        margin-bottom: 2rem;
+        text-align: center;
+        display: block;
+    }
+    
+    .section-title h3 {
+        font-size: 3rem;
+        padding-right: 0rem;
+    }
+    
+    .section-content {
+        border-left: 0rem;
+    }
+    
+    .section-content li {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    #contact-list {
+        justify-content: center;
     }
 }
