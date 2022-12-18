@@ -2,7 +2,9 @@ html {
     font-size: 16px;
 }
 
-
+body {
+    color: #2E4466;
+}
 
 header {
     background-color: #0F3266;
@@ -24,7 +26,7 @@ header a{
 }
 
 header a:hover {
-    color: antiquewhite;
+    color: #699DEA;
     border: 0rem;
 }
 
@@ -74,7 +76,7 @@ header li {
 }
 
 .section-title {
-    border-right: .3125rem solid #000;
+    border-right: .3125rem solid #0F3266;
     height: 100%;
     text-align: right;
     display: flex;
@@ -112,7 +114,8 @@ header li {
 .primary-work-overlay {
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5); 
+    background: #699DEA; 
+    opacity: 0.5;
     transition: opacity 0.3s ease-in-out;
     bottom: 484px;
     position: relative;
@@ -120,7 +123,7 @@ header li {
 
 .primary-work-overlay-tag {
     position: relative;
-    background-color: black;
+    background-color: #2E4466;
     width: 10rem;
     height: 5rem;
     bottom: 650px;
@@ -160,7 +163,7 @@ header li {
 
 .primary-work,
 .secondary-work {
-    border: .3125rem solid black;
+    border: .3125rem solid #0F3266;
 }
 
 .secondary-work {
@@ -172,7 +175,8 @@ header li {
 .secondary-work-overlay {
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5); 
+    background: #699DEA;
+    opacity: 0.5;
     transition: opacity 0.3s ease-in-out;
     position: relative;
     bottom: 244px;
@@ -180,7 +184,7 @@ header li {
 
 .secondary-work-overlay-tag {
     position: relative;
-    background-color: black;
+    background-color: #2E4466;
     width: 10rem;
     height: 5rem;
     bottom: 370px;
@@ -202,4 +206,19 @@ header li {
     display: flex;
     justify-content: space-around;
     padding-top: 2rem;
+}
+
+#contact-list a {
+    text-decoration: none;
+    color: #2E4466;
+    transition: color 0.2s ease-in-out, font-size 0.2s ease-in-out;
+}
+
+#contact-list a:hover {
+    font-size: 1.8rem;
+    color: #699DEA;
+}
+
+#contact-list a:active {
+    color: #1B57B3;
 }
