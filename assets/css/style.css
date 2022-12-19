@@ -6,6 +6,11 @@ body {
     color: #2E4466;
 }
 
+main {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 header {
     background-color: #0F3266;
     color: #FFF;
