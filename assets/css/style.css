@@ -114,8 +114,8 @@ header li {
 
 .section-content li {
     display: inline;
-    padding: 1.875rem;
-    font-size: 1.5rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
 }
 
 .profile-picture{
