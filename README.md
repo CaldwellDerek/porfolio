@@ -11,7 +11,7 @@ This project provides a single location that contains my professional history, i
 
 Deployment Link:
 
-https://caldwellderek.github.io/horiseon-refactor/
+https://caldwellderek.github.io/portfolio/
 
 ## Credits
 N/A
