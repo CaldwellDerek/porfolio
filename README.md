@@ -16,7 +16,9 @@
 A website to showcase my abilities as a fullstack web developer.
 
 ## Installation
-No installation is necessary for this porject. The website can be viewed at the following deployed link: 
+No installation is necessary for this porject. The website can be viewed at the following deployed link:
+
+ https://caldwellderek.github.io/portfolio/ 
 
 ## Usage
 This project provides a single location that contains my professional history, information about me, and the projects i've created in my careers as a fullstack web developer.
@@ -36,12 +38,14 @@ If you have any questions, feel free to reach out to me at my email: djohncaldwe
 All of my work can be viewed at my GitHub profile: [CaldwellDerek](https://github.com/CaldwellDerek)
 
 ## Media
-
+---
 About Me Section
-[!about-me-photo](/assets/images/porfolio-page-about-me.jpg)
+![about-me-photo](/assets/images/porfolio-page-about-me.jpg)
 
+---
 Work Section
-[!work-photo](/assets/images/porfolio-page-work.jpg)
+![work-photo](/assets/images/porfolio-page-work.jpg)
 
+---
 Contact Information Section
-[!contact-information-photo](/assets/images/porfolio-page-contact-me.jpg)
+![contact-information-photo](/assets/images/porfolio-page-contact-me.jpg)
