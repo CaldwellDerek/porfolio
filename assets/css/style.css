@@ -6,6 +6,7 @@ body {
     color: #2E4466;
 }
 
+/* Header Section --------------------------------------------------------- */
 
 header {
     background-color: #0F3266;
@@ -51,6 +52,8 @@ header li {
     display: inline;
 }
 
+/* Hero Section --------------------------------------------------------- */
+
 .hero {
     width: 100%;
     height: 20rem;
@@ -71,6 +74,8 @@ header li {
     bottom: 20.28rem;
 }
 
+/* Content covers Sections About Me and Work History --------------------------------------------------------- */
+
 .content {
     max-width: 70%;
     display: flex;
@@ -86,6 +91,8 @@ header li {
     justify-content: flex-start;
     align-items: flex-start;
 }
+
+/* Titles and Info for About Me - Work History - Contact Information --------------------------------------------------------- */
 
 .section-title {
     height: 100%;
@@ -118,6 +125,8 @@ header li {
     font-size: 1.2rem;
 }
 
+/* Profile Picture ---------------------------------------------------------  */
+
 .profile-picture{
     height: 15rem;
     width: 15rem;
@@ -129,6 +138,8 @@ header li {
     width: 100%;
     margin: .625rem 0rem;
 }
+
+/* Work Hitory --------------------------------------------------------- */
 
 .primary-work-overlay {
     height: 100%;
@@ -214,6 +225,8 @@ header li {
     align-items: center;
 }
 
+/* Contact Info --------------------------------------------------------- */
+
 #about-content {
     justify-content: center;
 }
@@ -243,6 +256,8 @@ header li {
 #contact-list a:active {
     color: #1B57B3;
 }
+
+/* Responsive Web CSS ---------------------------------------------------------*/
 
 @media screen and (max-width: 69.6875rem) {
 
